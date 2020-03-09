@@ -12,8 +12,8 @@ namespace NUnitTestProject1
         private IWebElement passwordfield;
         private IWebElement linktogmail;
         private IWebElement entrybutton;
-        private string gmaillogin = "zoludovv@gmail.com";
-        private string gmailpassword = "lurame15";
+        private string gmaillogin = "";
+        private string gmailpassword = "";
 
 
         public StartGooglePage()

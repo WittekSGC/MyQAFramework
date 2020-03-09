@@ -21,12 +21,12 @@ namespace NUnitTestProject1
             startYandexPage.FindSomeText("meow");
         }
 
-        [Test]
-        public void Test4Yamail()
-        {
-            startYandexPage.OpenStartYandexPage();
-            startYandexPage.OpenYamail();
-        }
+        //[Test]
+        //public void Test4Yamail()
+        //{
+        //    startYandexPage.OpenStartYandexPage();
+        //    startYandexPage.OpenYamail();
+        //}
 
         [OneTimeTearDown]
         public void Close()
