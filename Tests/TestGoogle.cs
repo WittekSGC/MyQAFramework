@@ -20,14 +20,15 @@ namespace NUnitTestProject1
         {
             startGooglePage.OpenStartGooglePage();
             startGooglePage.InputingSearchText("meow");
+
         }
 
-        //[Test]
-        //public void Test2Find()
-        //{
-        //    startGooglePage.OpenStartGooglePage();
-        //    startGooglePage.InputingSearchText("gmail login");
-        //    startGooglePage.LogInGmail();
-        //}
+        [Test]
+        public void Test2Find()
+        {
+            startGooglePage.OpenStartGooglePage();
+            startGooglePage.InputingSearchText("gmail login");
+            startGooglePage.LogInGmail();
+        }
     }
 }
